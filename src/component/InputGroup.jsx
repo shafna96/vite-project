@@ -28,8 +28,8 @@ export const Select = ({ label }) => {
         <option disabled selected>
           Who shot first?
         </option>
-        <option>Han Solo</option>
-        <option>Greedo</option>
+        {/* <option>Han Solo</option>
+        <option>Greedo</option> */}
       </select>
     </div>
   );
