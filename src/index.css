@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply rounded-full;
+}
+
+.form-control {
+  @apply flex-row;
+}
+
+.input {
+  @apply mr-5;
+}
+.select {
+  @apply mr-5;
+}
+.label {
+  @apply mr-5;
+}
+.demo {
+  margin-right: 600px;
+}
+/* .card {
+  @apply w-5/6;
+} */
