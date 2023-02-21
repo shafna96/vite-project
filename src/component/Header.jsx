@@ -104,11 +104,12 @@ function Header() {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 max-h-96 overflow-y-auto"
+                className="menu menu-horizontal dropdown-content mt-1 p-2 shadow bg-base-200 rounded-box w-52 max-h-96 overflow-y-auto"
               >
                 {THEMES.map((theme, i) => (
                   <li className="w-full" key={theme + i}>
                     <label
+                      className="w-full"
                       tabIndex={0}
                       data-set-theme={theme}
                       onClick={handleThemeChange}

@@ -1,5 +1,6 @@
 import "./App.css";
 import CTA from "./component/CTA";
+import Footer from "./component/Footer";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
 import Services from "./component/Services";
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Testimonial />
       <CTA />
+      <Footer />
       {/* <ItemMaster /> */}
     </>
   );
