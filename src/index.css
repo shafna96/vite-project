@@ -1,27 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.btn {
-  @apply rounded-full;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.form-control {
-  @apply flex-row;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
-
-.input {
-  @apply mr-5;
-}
-.select {
-  @apply mr-5;
-}
-.label {
-  @apply mr-5;
-}
-.demo {
-  margin-right: 600px;
-}
-/* .card {
-  @apply w-5/6;
-} */

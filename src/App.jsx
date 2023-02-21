@@ -1,9 +1,13 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "./App.css";
+
 import ItemMaster from "./screens/itemMaster";
 
 function App() {
   return (
     <>
-      <ItemMaster />
+      <i className="bi bi-list"></i>
+      <button className="btn">button</button>
     </>
   );
 }

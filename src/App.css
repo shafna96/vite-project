@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn {
+  @apply rounded-full;
+}
+
+.form-control {
+  @apply flex-row;
+} */
+
+/* .input {
+  @apply hidden sm:w-full;
+} */
+
+/* .select {
+  @apply flex-shrink;
+}
+.label {
+  @apply flex-shrink-0 w-20;
+} */
+/* .demo {
+  margin-right:15px hidden;
+} */
+/* .card {
+  @apply w-5/6;
+} */
