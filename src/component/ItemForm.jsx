@@ -8,7 +8,7 @@ export default function ItemForm() {
       <div className="card-body">
         <h2 className="card-title">Add Item</h2>
         <InputGroup label1={"Id"} label2={"Name"} />
-        <Input label={"Category"} />
+        {/* <Input label={"Category"} /> */}
         <Select label={"Brand"} data={brandOptions} />
         <SelectGroup
           label1={"Category"}

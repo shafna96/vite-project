@@ -41,14 +41,14 @@ export const Select = ({ label, data, demo }) => {
 export const InputGroup = ({ label1, label2 }) => {
   return (
     <>
-      <div className="max-[600px]:flex">
+      <div className="lg:flex">
         <Input label={label1} demo={"demo"} />
         <Input label={label2} />
       </div>
-      {/* <div className="lg:hidden">
+      <div className="lg:hidden">
         <Input label={label1} demo={"demo"} />
         <Input label={label2} />
-      </div> */}
+      </div>
     </>
   );
 };
